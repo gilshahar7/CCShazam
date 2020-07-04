@@ -1,7 +1,7 @@
 Package: com.gilshahar7.ccshazam
 Name: CCShazam
-Depends: mobilesubstrate
-Version: 1.0
+Depends: mobilesubstrate, com.opa334.ccsupport
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: A control center button to identify songs.
 Maintainer: gilshahar7 <gilshahardex99@gmail.com>
