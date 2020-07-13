@@ -2,7 +2,7 @@ FINALPACKAGE = 1
 
 include $(THEOS)/makefiles/common.mk
 
-export TARGET = iphone:clang:11.2:11.0
+export TARGET = iphone:clang:13.3:11.0
 export ARCHS = arm64 arm64e
 
 BUNDLE_NAME = CCShazam
