@@ -41,7 +41,7 @@
     requestOptions.buttonDownTimestamp = requestOptions.timestamp;
     //Check whether we should enable or disable an alarm, and then relay it to Siri
 
-    requestOptions.text = [NSString stringWithFormat:@"What song is this? bitch"];
+    requestOptions.text = [NSString stringWithFormat:@"Shazam"];
 
     AFApplicationInfo *applicationInfo = [[objc_getClass("AFApplicationInfo") alloc] init];
     applicationInfo.pid = [NSProcessInfo processInfo].processIdentifier;
